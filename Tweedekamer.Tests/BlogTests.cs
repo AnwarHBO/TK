@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FluentAssertions;
+using Microsoft.AspNetCore.Mvc;
 using Tweedekamer.Controllers;
 using Tweedekamer.Models;
 
@@ -26,10 +27,11 @@ namespace Tweedekamer.Tests
             var result = await controller.GetBlogPosts();
 
             // Asserts
-            var actionResult = Assert.IsType<ActionResult<IEnumerable<BlogPost>>>(result);
-            var blogPosts = Assert.IsType<List<BlogPost>>(actionResult.Value);
-            Assert.Equal(2, blogPosts.Count);
+            var actionResult = result.Should().BeOfType<ActionResult<IEnumerable<BlogPost>>>().Subject;
+            var blogPosts = actionResult.Value.Should().BeOfType<List<BlogPost>>().Subject;
+            blogPosts.Count.Should().Be(2);
         }
+
 
         [Fact]
         public async Task GetBlogPost_ValidId_ReturnsCorrectBlogPost()
@@ -44,13 +46,12 @@ namespace Tweedekamer.Tests
             var result = await service.GetBlogPost(8);
 
             // Assert
-            var actionResult = Assert.IsType<ActionResult<BlogPost>>(result);
-            var returnedBlogPost = Assert.IsType<BlogPost>(actionResult.Value);
-            Assert.Equal(getIdBlogPost.Id, returnedBlogPost.Id);
-            Assert.Equal(getIdBlogPost.Title, returnedBlogPost.Title);
-            Assert.Equal(getIdBlogPost.Content, returnedBlogPost.Content);
+            var actionResult = result.Should().BeOfType<ActionResult<BlogPost>>().Subject;
+            var returnedBlogPost = actionResult.Value.Should().BeOfType<BlogPost>().Subject;
+            returnedBlogPost.Id.Should().Be(getIdBlogPost.Id);
+            returnedBlogPost.Title.Should().Be(getIdBlogPost.Title);
+            returnedBlogPost.Content.Should().Be(getIdBlogPost.Content);
         }
-
 
         [Fact]
         public async Task UpdateBlogPost_UpdatesCorrectly()
@@ -71,8 +72,8 @@ namespace Tweedekamer.Tests
 
             // Assert
             var blogPostInDb = await _factory._context.BlogPosts.FindAsync(5);
-            Assert.Equal("New Title", blogPostInDb.Title);
-            Assert.Equal("New Content", blogPostInDb.Content);
+            blogPostInDb.Title.Should().Be("New Title");
+            blogPostInDb.Content.Should().Be("New Content");
         }
 
         [Fact]
@@ -87,11 +88,11 @@ namespace Tweedekamer.Tests
 
             // Assert
             var blogPostInDb = await _factory._context.BlogPosts.FindAsync(6);
-            Assert.NotNull(blogPostInDb);
-            Assert.NotNull(result);
-            Assert.Equal(createBlogPost.Id, blogPostInDb.Id);
-            Assert.Equal(createBlogPost.Title, blogPostInDb.Title);
-            Assert.Equal(createBlogPost.Content, blogPostInDb.Content);
+            blogPostInDb.Should().NotBeNull();
+            result.Should().NotBeNull();
+            blogPostInDb.Id.Should().Be(createBlogPost.Id);
+            blogPostInDb.Title.Should().Be(createBlogPost.Title);
+            blogPostInDb.Content.Should().Be(createBlogPost.Content);
         }
 
         [Fact]
@@ -108,9 +109,10 @@ namespace Tweedekamer.Tests
 
             // Assert
             var blogPostInDb = await _factory._context.BlogPosts.FindAsync(9);
-            Assert.Null(blogPostInDb);
+            blogPostInDb.Should().BeNull();
         }
     }
+
 }
 
 

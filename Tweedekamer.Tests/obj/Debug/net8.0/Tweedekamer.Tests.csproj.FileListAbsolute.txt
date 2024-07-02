@@ -546,3 +546,5 @@ C:\Dev\Tweedekamer\Tweedekamer.Tests\obj\Debug\net8.0\refint\Tweedekamer.Tests.d
 C:\Dev\Tweedekamer\Tweedekamer.Tests\obj\Debug\net8.0\Tweedekamer.Tests.pdb
 C:\Dev\Tweedekamer\Tweedekamer.Tests\obj\Debug\net8.0\Tweedekamer.Tests.genruntimeconfig.cache
 C:\Dev\Tweedekamer\Tweedekamer.Tests\obj\Debug\net8.0\ref\Tweedekamer.Tests.dll
+C:\Dev\Tweedekamer\Tweedekamer.Tests\bin\Debug\net8.0\FluentAssertions.dll
+C:\Dev\Tweedekamer\Tweedekamer.Tests\obj\Debug\net8.0\Tweedekamer.Tests.sourcelink.json

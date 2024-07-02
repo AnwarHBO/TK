@@ -37,6 +37,7 @@
       "Tweedekamer.Tests/1.0.0": {
         "dependencies": {
           "EfCore.TestSupport": "8.0.1",
+          "FluentAssertions": "6.12.0",
           "Microsoft.AspNetCore.Mvc.Testing": "8.0.6",
           "Microsoft.NET.Test.Sdk": "17.6.0",
           "Tweedekamer": "1.0.0",
@@ -415,6 +416,20 @@
         },
         "compile": {
           "lib/net8.0/TestSupport.dll": {}
+        }
+      },
+      "FluentAssertions/6.12.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "6.12.0.0",
+            "fileVersion": "6.12.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -1543,6 +1558,9 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
         }
       },
       "Mono.TextTemplating/2.2.1": {
@@ -1907,6 +1925,9 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.922.41905"
           }
+        },
+        "compile": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
@@ -1934,6 +1955,9 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
+        },
+        "compile": {
+          "lib/net6.0/System.Drawing.Common.dll": {}
         }
       },
       "System.Formats.Asn1/5.0.0": {},
@@ -2042,6 +2066,9 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
+        },
+        "compile": {
+          "lib/net6.0/System.Security.Permissions.dll": {}
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
@@ -2082,6 +2109,9 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
+        },
+        "compile": {
+          "lib/net6.0/System.Windows.Extensions.dll": {}
         }
       },
       "xunit/2.8.1": {
@@ -4004,6 +4034,13 @@
       "sha512": "sha512-n5m4YD5p/Y55MdLX+IAUvwaHo3SvZ698u/QEThC/o1J+ZeTFIfkoD/9SYhSyMLjiEqN+pxPIxUGuXyzS6NZgNA==",
       "path": "efcore.testsupport/8.0.1",
       "hashPath": "efcore.testsupport.8.0.1.nupkg.sha512"
+    },
+    "FluentAssertions/6.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZXhHT2YwP9lajrwSKbLlFqsmCCvFJMoRSK9t7sImfnCyd0OB3MhgxdoMcVqxbq1iyxD6mD2fiackWmBb7ayiXQ==",
+      "path": "fluentassertions/6.12.0",
+      "hashPath": "fluentassertions.6.12.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

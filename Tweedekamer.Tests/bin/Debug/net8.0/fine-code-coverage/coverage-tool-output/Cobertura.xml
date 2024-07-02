@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.819548872180451" branch-rate="0.375" lines-covered="109" lines-valid="133" branches-covered="3" branches-valid="8" complexity="27" version="0" timestamp="1719914147">
+<coverage line-rate="0.819548872180451" branch-rate="0.375" lines-covered="109" lines-valid="133" branches-covered="3" branches-valid="8" complexity="27" version="0" timestamp="1719927761">
   <sources>
     <source>C:\</source>
   </sources>
@@ -223,10 +223,10 @@
           <methods>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="5" branch="false" />
                 <line number="12" hits="5" branch="false" />
                 <line number="13" hits="5" branch="false" />
                 <line number="14" hits="5" branch="false" />
+                <line number="15" hits="5" branch="false" />
               </lines>
             </method>
             <method name="CreateBlogPost_ValidBlogPost_CreatesBlogPost" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -259,26 +259,26 @@
             </method>
             <method name="GetBlogPost_ValidId_ReturnsCorrectBlogPost" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="1" branch="false" />
-                <line number="39" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
                 <line number="40" hits="1" branch="false" />
                 <line number="41" hits="1" branch="false" />
                 <line number="42" hits="1" branch="false" />
-                <line number="45" hits="1" branch="false" />
-                <line number="48" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
                 <line number="49" hits="1" branch="false" />
                 <line number="50" hits="1" branch="false" />
                 <line number="51" hits="1" branch="false" />
                 <line number="52" hits="1" branch="false" />
                 <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
               </lines>
             </method>
             <method name="GetBlogPosts_ReturnsCorrectNumberOfBlogPosts" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="1" branch="false" />
-                <line number="20" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
                 <line number="21" hits="1" branch="false" />
                 <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
                 <line number="24" hits="1" branch="false" />
                 <line number="27" hits="1" branch="false" />
                 <line number="30" hits="1" branch="false" />
@@ -307,32 +307,32 @@
             </method>
           </methods>
           <lines>
-            <line number="11" hits="5" branch="false" />
             <line number="12" hits="5" branch="false" />
             <line number="13" hits="5" branch="false" />
             <line number="14" hits="5" branch="false" />
-            <line number="18" hits="1" branch="false" />
-            <line number="20" hits="1" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="19" hits="1" branch="false" />
             <line number="21" hits="1" branch="false" />
             <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
             <line number="24" hits="1" branch="false" />
             <line number="27" hits="1" branch="false" />
             <line number="30" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
             <line number="32" hits="1" branch="false" />
             <line number="33" hits="1" branch="false" />
-            <line number="37" hits="1" branch="false" />
-            <line number="39" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
             <line number="40" hits="1" branch="false" />
             <line number="41" hits="1" branch="false" />
             <line number="42" hits="1" branch="false" />
-            <line number="45" hits="1" branch="false" />
-            <line number="48" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
             <line number="49" hits="1" branch="false" />
             <line number="50" hits="1" branch="false" />
             <line number="51" hits="1" branch="false" />
             <line number="52" hits="1" branch="false" />
             <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
             <line number="58" hits="1" branch="false" />
             <line number="60" hits="1" branch="false" />
             <line number="61" hits="1" branch="false" />

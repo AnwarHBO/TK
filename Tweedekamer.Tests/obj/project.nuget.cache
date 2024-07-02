@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OobImfGwMwtMK4BsndG0mZLpCtuJ0yKqwcEWWLwML5voHgZ9cGYbKu+LaMm8bt+3/7lCzQqkve9o9/+RBhpjzQ==",
+  "dgSpecHash": "WjBDaijcjHzrpvFibNcK2y77Bo1uNIZRF6Zd7IvECPrFeOGX3vysJ/Tof5nsgEKiEpAHeeUkNpdMNg2u1E/vrw==",
   "success": true,
   "projectFilePath": "C:\\Dev\\Tweedekamer\\Tweedekamer.Tests\\Tweedekamer.Tests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\aammor\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\aammor\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\aammor\\.nuget\\packages\\efcore.testsupport\\8.0.1\\efcore.testsupport.8.0.1.nupkg.sha512",
+    "C:\\Users\\aammor\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\aammor\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\aammor\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\8.0.6\\microsoft.aspnetcore.mvc.testing.8.0.6.nupkg.sha512",
     "C:\\Users\\aammor\\.nuget\\packages\\microsoft.aspnetcore.testhost\\8.0.6\\microsoft.aspnetcore.testhost.8.0.6.nupkg.sha512",
