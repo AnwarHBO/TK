@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tweedekamer.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cc001a8aa4e02d5f0e0f82082e36a176d820f0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c2a46b8503694bfc230ac5eb562da97f3ebc3c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tweedekamer.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tweedekamer.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
